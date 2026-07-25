@@ -1,0 +1,14 @@
+################################
+#   AutoFishing Configuration   #
+################################
+
+# Economy cost per auto-fish catch
+#   0   = free (no charge)
+#   -1  = player GAINS 1 per catch
+#   >0  = player PAYS this amount per catch
+cost: 0
+
+# Worlds where auto-fishing is allowed
+allow-worlds:
+  - "world"
+  - "the_end"

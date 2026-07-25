@@ -1,0 +1,8 @@
+name: AutoFishing
+main: com.autofishing.AutoFishingPlugin
+version: "1.0.0"
+api: ["1.0.0"]
+author: AutoFishing
+description: Auto fishing plugin with EconomyAPI support
+depend:
+  - EconomyAPI

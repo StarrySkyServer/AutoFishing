@@ -1,0 +1,8 @@
+com\autofishing\data\PlayerDataManager$PlayerData.class
+com\autofishing\data\PlayerDataManager.class
+com\autofishing\command\AutoFishingCommand$1.class
+com\autofishing\config\AutoFishingConfig.class
+com\autofishing\AutoFishingPlugin.class
+com\autofishing\command\AutoFishingCommand.class
+com\autofishing\command\ReloadCommand.class
+com\autofishing\listener\FishingListener.class
