@@ -38,11 +38,9 @@ public class AutoFishingConfig extends OkaeriConfig {
     public static AutoFishingConfig load(Plugin plugin) {
         plugin.getDataFolder().mkdirs();
         return ConfigManager.create(AutoFishingConfig.class, it -> {
-            it.configure(opt -> {
-                opt.configurer(new YamlSnakeYamlConfigurer());
-                opt.bindFile(new File(plugin.getDataFolder(), "config.yml"));
-                opt.removeOrphans(true);
-            });
+            it.withConfigurer(new YamlSnakeYamlConfigurer());
+            it.withBindFile(new File(plugin.getDataFolder(), "config.yml").toPath());
+            it.withRemoveOrphans(true);
             it.saveDefaults();
             it.load(true);
         });
