@@ -22,13 +22,12 @@
     </repositories>
 
     <dependencies>
-        <!-- Nukkit-MOT (local jar) -->
+        <!-- Nukkit-MOT (from Maven Central) -->
         <dependency>
-            <groupId>cn.nukkit</groupId>
-            <artifactId>Nukkit</artifactId>
-            <version>MOT-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/Nukkit-MOT.jar</systemPath>
+            <groupId>com.nukkit-mot</groupId>
+            <artifactId>nukkit-mot</artifactId>
+            <version>1.26.30-R1</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- EconomyAPI (local jar) -->
