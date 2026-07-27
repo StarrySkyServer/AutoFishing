@@ -25,3 +25,16 @@ AutoFishing 是一个运行在 **Nukkit-MOT**（Minecraft 基岩版服务端）�
 | `/reautofish` | OP / 控制台 | 重载 `config.yml` 配置 |
 
 ### 配置文件
+~\plugins\AutoFishing\config.yml
+```yaml
+################################
+#   AutoFishing Configuration   #
+################################
+# 每次自动钓鱼的经济消耗
+#   0   = 免费
+#   -1  = 每次获得 1 经济
+#   >0  = 每次扣除对应数值
+cost: 3.0
+# 允许使用自动钓鱼的世界列表
+allowWorlds:
+- resource
